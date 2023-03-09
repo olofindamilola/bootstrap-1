@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="stlyle.css">
+    <title>Bootstrap-1</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Amilacodes</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Dropdown
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled">Disabled</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+
+      <div id="carouselExampleCaptions" class="carousel slide">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="app-ilustration.svg" class="d-block imgage" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>First slide label</h5>
+              <p>Some representative placeholder content for the first slide.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="about-ilustration.svg" class="d-block imgage"  alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Second slide label</h5>
+              <p>Some representative placeholder content for the second slide.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="home-ilustration.svg" class="d-block  imgage" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Third slide label</h5>
+              <p>Some representative placeholder content for the third slide.</p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+      <div class="about bg-black p-5">
+            <h2 class="text-center text-white ">About Us</h2>
+            <div class="row class-container d-flex justify-content-around">
+                <div class="card column" style="width: 15rem;">
+                    <img src="profile2.jpg" class="card-img-top image" alt="...">
+                    <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" class="btn btn-outline-primary w-100">Go somewhere</a>
+                    </div>
+                </div>
+
+                <div class="card column" style="width: 18rem;">
+                    <img src="home-ilustration.svg" class="card-img-top image" alt="...">
+                    <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" class="btn btn-outline-warning w-100">Go somewhere</a>
+                    </div>
+                </div>
+
+                <div class="card column" style="width: 18rem;">
+                    <img src="app-ilustration.svg" class="card-img-top image" alt="...">
+                    <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" class="btn btn-outline-warning w-100">Go somewhere</a>
+                    </div>
+                </div>
+
+                <div class="card column" style="width: 18rem;">
+                    <img src="about-ilustration.svg" class="card-img-top image" alt="...">
+                    <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" class="btn btn-outline-warning w-100">Go somewhere</a>
+                    </div>
+                </div>
+            </div>
+      </div>
+    </div>
+    <div class="row">
+        <div class="col-lg-3 col-md-4 col-sm-12 bg-warning" >
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Distinctio velit harum possimus quidem eaque sed facere odio hic commodi. Reprehenderit quae dolores commodi cum. Sint ea praesentium maxime, nesciunt dicta fugit veniam autem cupiditate facere? Deleniti cum quasi consectetur nesciunt laborum ad optio expedita accusamus consequatur aliquam veniam maxime, officia in quam accusantium. Fuga consequuntur, nam asperiores repudiandae earum distinctio unde sapiente numquam laudantium dignissimos dolores commodi atque a nulla. Quas consequuntur tempora in error labore nihil veritatis doloribus enim cum consectetur dolores modi aut esse corporis sunt, cupiditate delectus sit possimus pariatur? Rerum debitis sed id placeat qui cupiditate laborum? Deserunt voluptatibus excepturi atque odit aspernatur doloremque quo repellendus illo perspiciatis nobis consequuntur magni tempora temporibus totam, iusto cum id! Id voluptatum eius omnis quis amet iusto ratione perspiciatis, praesentium iure repellendus similique placeat. Rerum labore omnis reiciendis sint. Corrupti perferendis nesciunt blanditiis, sequi ipsum magnam numquam asperiores quia reiciendis aut soluta! Odit voluptate mollitia nesciunt reiciendis adipisci maxime possimus alias officiis odio, deleniti quasi molestias tenetur. Nemo sed, delectus cupiditate quis sit fuga, autem sint sapiente quas error, expedita eum. Sed quam illum voluptate, 
+                quidem quisquam consequatur laboriosam voluptatibus minus ut, nam accusamus accusantium dolor, veniam nesciunt praesentium!</p>
+        </div>
+        <div class="col-lg-6 col-md-4 col-sm-12 bg-success" >
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illum reprehenderit sint illo, magnam ut consequatur repellendus quibusdam laudantium consectetur soluta aliquam accusamus voluptatibus harum asperiores inventore quaerat repellat ex! Alias quae eius aliquam nobis totam praesentium unde repellat, atque laborum cumque mollitia, non, sapiente qui minus ut? Et nemo aliquam eos animi voluptas, ad aperiam adipisci debitis nihil possimus expedita quisquam tempora beatae nulla rem libero dicta est consequuntur architecto repudiandae similique velit unde deserunt! Distinctio in aut non nam quidem commodi illo eligendi, exercitationem consequuntur corporis nulla reprehenderit recusandae tempora. Exercitationem, in? Pariatur, illo. Quia nisi quae exercitationem alias dolor accusamus vel doloribus provident dolorem, sunt consectetur reprehenderit excepturi deleniti eum soluta, corporis voluptatem explicabo ab ullam! Accusantium, veniam est! Commodi asperiores error dolorem nisi. Explicabo aut atque cupiditate eos pariatur id, nisi qui delectus facere. Facere suscipit dolor cumque error beatae mollitia pariatur ut dolorem fuga veritatis nulla est aspernatur, neque aliquid esse sint nihil veniam fugiat excepturi deserunt quasi nesciunt sapiente expedita! Dolor, dolore commodi quidem quaerat dignissimos sed? Recusandae fugit eius beatae accusamus placeat aliquid cum maxime dolorem dolore. Doloremque quaerat tempore,
+                 repellendus ex neque tempora cumque repudiandae labore! Eaque quasi sequi, dolore pariatur dignissimos saepe!</p>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-12 bg-danger" >
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate quae eius, corporis facilis architecto dolore, quo ipsum eos animi at minima quibusdam rerum consequuntur consectetur, numquam corrupti quod in ducimus aperiam excepturi. Quo ad esse, ipsa fugit accusamus sapiente pariatur aut quae eaque doloremque adipisci voluptatibus error dicta sequi, quos quibusdam. Vitae voluptatum aspernatur mollitia eum quasi deserunt, ea omnis perspiciatis corporis repellat blanditiis architecto at, suscipit rem numquam, eligendi corrupti! Deleniti delectus atque eos consectetur ea commodi incidunt culpa, tenetur tempore quae alias ut dolorum! Id laborum aperiam modi quos natus commodi veritatis nisi amet illum quaerat quod velit distinctio qui ipsa impedit culpa, cupiditate, fugit dignissimos quisquam soluta ut? Mollitia fugit doloribus et quos nobis ut deserunt dolorem quas, iure praesentium velit tenetur laboriosam consequuntur accusantium reiciendis error odio laudantium, facilis earum ex molestiae illo. Eaque eos consectetur libero sed alias pariatur quam ducimus excepturi rem ab beatae suscipit nihil neque fugit quidem, voluptates similique impedit natus labore, velit consequuntur quod. Quo quia illo in corrupti ipsam, placeat asperiores, quidem corporis nemo eaque animi, dignissimos totam debitis commodi est consequuntur deserunt? Ullam quas minus corrupti officiis nam,
+                 ipsam ad, maxime temporibus dolor corporis cum adipisci quae sint tempore.</p>
+        </div>
+    </div>
+
+</body>
+</html>
